@@ -1,0 +1,4 @@
+Invoking command in '/icarus_foxy/build/robot_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /icarus_foxy/build/robot_core -- -j16 -l16
+Invoked command in '/icarus_foxy/build/robot_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /icarus_foxy/build/robot_core -- -j16 -l16
+Invoking command in '/icarus_foxy/build/robot_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /icarus_foxy/build/robot_core
+Invoked command in '/icarus_foxy/build/robot_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /icarus_foxy/build/robot_core

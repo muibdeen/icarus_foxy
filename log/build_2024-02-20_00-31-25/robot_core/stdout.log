@@ -1,0 +1,99 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /icarus_foxy/build/robot_core
+[35m[1mScanning dependencies of target nav_publisher[0m
+[35m[1mScanning dependencies of target tf_listener[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/nav_publisher.dir/src/nav2/differential_drive2.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tf_listener.dir/src/nav2/tf_listener.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable tf_listener[0m
+[ 75%] Built target tf_listener
+[100%] [32m[1mLinking CXX executable nav_publisher[0m
+[100%] Built target nav_publisher
+-- Install configuration: ""
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/src
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/src/robot_description
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/src/robot_description/robot_core_ros_2_control.urdf
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/src/robot_description/robot_core.urdf
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/src/nav2
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/src/nav2/differential_drive2.cpp
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/src/nav2/tf_listener.cpp
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/src/nav2/differential_drive.cpp
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/launch
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/launch/display.launch.py
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/rviz
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/rviz/urdf_config.rviz
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/world
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/world/my_world.sdf
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/controllers
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/controllers/mux.yaml
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/controllers/controllers.yaml
+-- Installing: /icarus_foxy/install/robot_core/lib/robot_core/nav_publisher
+-- Set runtime path of "/icarus_foxy/install/robot_core/lib/robot_core/nav_publisher" to ""
+-- Installing: /icarus_foxy/install/robot_core/lib/robot_core/tf_listener
+-- Set runtime path of "/icarus_foxy/install/robot_core/lib/robot_core/tf_listener" to ""
+-- Installing: /icarus_foxy/install/robot_core/share/ament_index/resource_index/package_run_dependencies/robot_core
+-- Installing: /icarus_foxy/install/robot_core/share/ament_index/resource_index/parent_prefix_path/robot_core
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/environment/ament_prefix_path.sh
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/environment/ament_prefix_path.dsv
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/environment/path.sh
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/environment/path.dsv
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/local_setup.bash
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/local_setup.sh
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/local_setup.zsh
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/local_setup.dsv
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/package.dsv
+-- Installing: /icarus_foxy/install/robot_core/share/ament_index/resource_index/packages/robot_core
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/cmake/robot_coreConfig.cmake
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/cmake/robot_coreConfig-version.cmake
+-- Installing: /icarus_foxy/install/robot_core/share/robot_core/package.xml

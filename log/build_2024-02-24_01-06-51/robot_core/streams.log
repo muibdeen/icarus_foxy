@@ -1,0 +1,39 @@
+[0.044s] Invoking command in '/icarus_foxy/build/robot_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /icarus_foxy/build/robot_core -- -j16 -l16
+[0.152s] [ 50%] Built target tf_listener
+[0.152s] [100%] Built target nav_publisher
+[0.167s] Invoked command in '/icarus_foxy/build/robot_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /icarus_foxy/build/robot_core -- -j16 -l16
+[0.220s] Invoking command in '/icarus_foxy/build/robot_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /icarus_foxy/build/robot_core
+[0.229s] -- Install configuration: ""
+[0.230s] -- Execute custom install script
+[0.231s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/src/nav2/differential_drive.cpp
+[0.231s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/src/nav2/differential_drive2.cpp
+[0.231s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/src/nav2/tf_listener.cpp
+[0.231s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/src/robot_description/robot_core.urdf
+[0.231s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/src/robot_description/robot_core_ros_2_control.urdf
+[0.232s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/src/robot_description/robot_core_sim_mirror.urdf
+[0.232s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/launch/display.launch.py
+[0.232s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/launch/gazebo launch
+[0.232s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/launch/gazebo_launch.py
+[0.232s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/launch/sim_launch.py
+[0.233s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/rviz/urdf_config.rviz
+[0.233s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/world/my_world.sdf
+[0.233s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/controllers/controllers.yaml
+[0.233s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/controllers/mux.yaml
+[0.234s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/lib/robot_core/nav_publisher
+[0.234s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/lib/robot_core/tf_listener
+[0.235s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/ament_index/resource_index/package_run_dependencies/robot_core
+[0.235s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/ament_index/resource_index/parent_prefix_path/robot_core
+[0.235s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/environment/ament_prefix_path.sh
+[0.235s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/environment/ament_prefix_path.dsv
+[0.235s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/environment/path.sh
+[0.236s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/environment/path.dsv
+[0.236s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/local_setup.bash
+[0.236s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/local_setup.sh
+[0.236s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/local_setup.zsh
+[0.236s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/local_setup.dsv
+[0.236s] -- Symlinking: /icarus_foxy/install/robot_core/share/robot_core/package.dsv
+[0.247s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/ament_index/resource_index/packages/robot_core
+[0.247s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/cmake/robot_coreConfig.cmake
+[0.247s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/cmake/robot_coreConfig-version.cmake
+[0.247s] -- Up-to-date symlink: /icarus_foxy/install/robot_core/share/robot_core/package.xml
+[0.275s] Invoked command in '/icarus_foxy/build/robot_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /icarus_foxy/build/robot_core

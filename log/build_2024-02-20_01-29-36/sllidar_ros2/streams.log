@@ -1,0 +1,70 @@
+[0.023s] Invoking command in '/icarus_foxy/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /icarus_foxy/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/icarus_foxy/install/sllidar_ros2
+[0.036s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.053s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.173s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.179s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.207s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.209s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.342s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.378s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.379s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.483s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.567s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[0.629s] -- Configuring done
+[0.640s] -- Generating done
+[0.645s] -- Build files have been written to: /icarus_foxy/build/sllidar_ros2
+[0.647s] Invoked command in '/icarus_foxy/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /icarus_foxy/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/icarus_foxy/install/sllidar_ros2
+[0.650s] Invoking command in '/icarus_foxy/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /icarus_foxy/build/sllidar_ros2 -- -j16 -l16
+[0.712s] [  5%] [32m[1mLinking CXX executable sllidar_client[0m
+[0.713s] [ 10%] [32m[1mLinking CXX executable sllidar_node[0m
+[0.919s] [ 95%] Built target sllidar_node
+[0.924s] [100%] Built target sllidar_client
+[0.937s] Invoked command in '/icarus_foxy/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /icarus_foxy/build/sllidar_ros2 -- -j16 -l16
+[1.006s] Invoking command in '/icarus_foxy/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /icarus_foxy/build/sllidar_ros2
+[1.015s] -- Install configuration: ""
+[1.015s] -- Execute custom install script
+[1.016s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[1.027s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[1.038s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[1.050s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[1.060s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[1.071s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[1.081s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[1.090s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[1.102s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[1.112s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[1.122s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[1.133s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[1.144s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[1.155s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[1.166s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[1.180s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[1.190s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[1.203s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[1.215s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[1.226s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[1.239s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[1.252s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[1.263s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[1.274s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[1.284s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[1.296s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[1.307s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[1.319s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[1.329s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[1.340s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[1.350s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[1.359s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[1.370s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[1.380s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[1.390s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[1.402s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[1.411s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[1.422s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[1.431s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[1.440s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.450s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.459s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[1.468s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[1.478s] -- Symlinking: /icarus_foxy/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[1.491s] Invoked command in '/icarus_foxy/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /icarus_foxy/build/sllidar_ros2

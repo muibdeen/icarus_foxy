@@ -1,0 +1,16 @@
+/icarus_foxy/install/joy_sub/lib/joy_sub/joysub
+/icarus_foxy/install/joy_sub/share/ament_index/resource_index/package_run_dependencies/joy_sub
+/icarus_foxy/install/joy_sub/share/ament_index/resource_index/parent_prefix_path/joy_sub
+/icarus_foxy/install/joy_sub/share/joy_sub/environment/ament_prefix_path.sh
+/icarus_foxy/install/joy_sub/share/joy_sub/environment/ament_prefix_path.dsv
+/icarus_foxy/install/joy_sub/share/joy_sub/environment/path.sh
+/icarus_foxy/install/joy_sub/share/joy_sub/environment/path.dsv
+/icarus_foxy/install/joy_sub/share/joy_sub/local_setup.bash
+/icarus_foxy/install/joy_sub/share/joy_sub/local_setup.sh
+/icarus_foxy/install/joy_sub/share/joy_sub/local_setup.zsh
+/icarus_foxy/install/joy_sub/share/joy_sub/local_setup.dsv
+/icarus_foxy/install/joy_sub/share/joy_sub/package.dsv
+/icarus_foxy/install/joy_sub/share/ament_index/resource_index/packages/joy_sub
+/icarus_foxy/install/joy_sub/share/joy_sub/cmake/joy_subConfig.cmake
+/icarus_foxy/install/joy_sub/share/joy_sub/cmake/joy_subConfig-version.cmake
+/icarus_foxy/install/joy_sub/share/joy_sub/package.xml

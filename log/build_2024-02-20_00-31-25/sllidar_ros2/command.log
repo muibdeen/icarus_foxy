@@ -1,0 +1,6 @@
+Invoking command in '/icarus_foxy/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /icarus_foxy/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/icarus_foxy/install/sllidar_ros2
+Invoked command in '/icarus_foxy/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /icarus_foxy/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/icarus_foxy/install/sllidar_ros2
+Invoking command in '/icarus_foxy/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /icarus_foxy/build/sllidar_ros2 -- -j16 -l16
+Invoked command in '/icarus_foxy/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /icarus_foxy/build/sllidar_ros2 -- -j16 -l16
+Invoking command in '/icarus_foxy/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /icarus_foxy/build/sllidar_ros2
+Invoked command in '/icarus_foxy/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /icarus_foxy/build/sllidar_ros2

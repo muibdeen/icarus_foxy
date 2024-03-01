@@ -1,0 +1,50 @@
+[0.028s] Invoking command in '/icarus_foxy/build/joy_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /icarus_foxy/src/joysub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/icarus_foxy/install/joy_sub
+[0.046s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.181s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.189s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.221s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.394s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.395s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.499s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.585s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.640s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.640s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.640s] -- Configured cppcheck include dirs: 
+[0.640s] -- Configured cppcheck exclude dirs and/or files: 
+[0.641s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.641s] -- Configured cpplint exclude dirs and/or files: 
+[0.641s] -- Added test 'lint_cmake' to check CMake code style
+[0.642s] -- Added test 'uncrustify' to check C / C++ code style
+[0.642s] -- Configured uncrustify additional arguments: 
+[0.642s] -- Added test 'xmllint' to check XML markup files
+[0.646s] -- Configuring done
+[0.652s] -- Generating done
+[0.654s] -- Build files have been written to: /icarus_foxy/build/joy_sub
+[0.659s] Invoked command in '/icarus_foxy/build/joy_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /icarus_foxy/src/joysub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/icarus_foxy/install/joy_sub
+[0.662s] Invoking command in '/icarus_foxy/build/joy_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /icarus_foxy/build/joy_sub -- -j16 -l16
+[0.729s] [ 50%] [32m[1mLinking CXX executable joysub[0m
+[0.943s] [100%] Built target joysub
+[0.957s] Invoked command in '/icarus_foxy/build/joy_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /icarus_foxy/build/joy_sub -- -j16 -l16
+[0.998s] Invoking command in '/icarus_foxy/build/joy_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /icarus_foxy/build/joy_sub
+[1.009s] -- Install configuration: ""
+[1.010s] -- Execute custom install script
+[1.010s] -- Symlinking: /icarus_foxy/install/joy_sub/lib/joy_sub/joysub
+[1.024s] -- Symlinking: /icarus_foxy/install/joy_sub/share/ament_index/resource_index/package_run_dependencies/joy_sub
+[1.033s] -- Symlinking: /icarus_foxy/install/joy_sub/share/ament_index/resource_index/parent_prefix_path/joy_sub
+[1.045s] -- Symlinking: /icarus_foxy/install/joy_sub/share/joy_sub/environment/ament_prefix_path.sh
+[1.056s] -- Symlinking: /icarus_foxy/install/joy_sub/share/joy_sub/environment/ament_prefix_path.dsv
+[1.067s] -- Symlinking: /icarus_foxy/install/joy_sub/share/joy_sub/environment/path.sh
+[1.078s] -- Symlinking: /icarus_foxy/install/joy_sub/share/joy_sub/environment/path.dsv
+[1.089s] -- Symlinking: /icarus_foxy/install/joy_sub/share/joy_sub/local_setup.bash
+[1.098s] -- Symlinking: /icarus_foxy/install/joy_sub/share/joy_sub/local_setup.sh
+[1.108s] -- Symlinking: /icarus_foxy/install/joy_sub/share/joy_sub/local_setup.zsh
+[1.119s] -- Symlinking: /icarus_foxy/install/joy_sub/share/joy_sub/local_setup.dsv
+[1.129s] -- Symlinking: /icarus_foxy/install/joy_sub/share/joy_sub/package.dsv
+[1.139s] -- Symlinking: /icarus_foxy/install/joy_sub/share/ament_index/resource_index/packages/joy_sub
+[1.150s] -- Symlinking: /icarus_foxy/install/joy_sub/share/joy_sub/cmake/joy_subConfig.cmake
+[1.161s] -- Symlinking: /icarus_foxy/install/joy_sub/share/joy_sub/cmake/joy_subConfig-version.cmake
+[1.173s] -- Symlinking: /icarus_foxy/install/joy_sub/share/joy_sub/package.xml
+[1.187s] Invoked command in '/icarus_foxy/build/joy_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /icarus_foxy/build/joy_sub
