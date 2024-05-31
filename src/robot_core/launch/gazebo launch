@@ -1,7 +1,7 @@
     spawn_entity = launch_ros.actions.Node(
         package = 'gazebo_ros',
         executable = 'spawn_entity.py',
-        arguments = ['-entity', 'robot_core', '-topic', 'robot_description'],
+        arguments = ['-entity', 'robot_core', '-topic', 'robot_description', "-verbose", "true"],
         output = 'screen'
     )
     

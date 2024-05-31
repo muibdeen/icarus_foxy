@@ -1,1 +1,48 @@
-/icarus_foxy/src/robot_core/controllers/controllers.yaml
+controller_manager:
+  ros__parameters:
+    update_rate: 20
+    #use_sim_time: true
+
+    mech_cont:
+      type: mech_drive_controller/MechDriveController
+    
+    joint_broad:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+mech_cont:
+  ros__parameters:
+    publish_rate: 10.0
+    base_frame_id: base_link
+    wheels_per_side: 2
+    front_left_wheel_name: ["frontLeft_joint"]
+    front_right_wheel_name: ["frontRight_joint"]
+    back_left_wheel_name: ["backLeft_joint"]
+    back_right_wheel_name: ["backRight_joint"]
+    wheel_separation: .203
+    wheel_radius: .024
+    
+
+    use_stamped_vel: false
+
+
+    joint_state:
+      front_left_wheel:
+        topic: "/frontLeft_Joint" # Adjust topic names as per your actual topics
+        ignore_timestamp: true
+      front_right_wheel:
+        topic: "/frontRight_Joint" # Adjust topic names as per your actual topics
+        ignore_timestamp: true
+      back_left_wheel:
+        topic: "/backLeft_Joint" # Adjust topic names as per your actual topics
+        ignore_timestamp: true
+      back_right_wheel:
+        topic: "/backLeft_Joint" # Adjust topic names as per your actual topics
+        ignore_timestamp: true
+
+
+joint_broad:
+  ros__parameters:
+    joints: ["backLeft_joint", "frontLeft_joint", "backRight_joint", "frontRight_joint"]
+
+
+    

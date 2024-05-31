@@ -176,7 +176,7 @@
 
 <!--adding differential drive plugin-->
 <gazebo>
-	<plugin name='diff_drive' filename='libgazebo_ros_diff_drive.so'>
+	<plugin name='mech_drive_controller' filename='libgazebo_ros_control.so'>
 		<ros>
 			<namespace>/demo</namespace>	
 		</ros>

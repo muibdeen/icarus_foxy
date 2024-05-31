@@ -20,11 +20,17 @@ RUN sudo usermod --append --groups video $USERNAME
 # Update all packages
 RUN sudo apt update && sudo apt upgrade -y
 
+# Install Pip
+Run sudo apt install pip -y
+
 # Install Git
 RUN sudo apt install -y git
 
 # Rosdep update
-RUN rosdep update
+RUN rosdep update --include-eol-distros
 
 # Source the ROS setup file
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
+
+# Specific Ros Packages and dependencies
+RUN pip install pigpio

@@ -1,1 +1,23 @@
-/icarus_foxy/src/robot_core/controllers/mux.yaml
+twist_mux:
+  ros__parameters:
+    topics:
+      autonomous:
+        topic: diff_cont/cmd_vel_unstamped
+        timeout: 0.0
+        priority: 100
+      
+      joy:
+        topic: joy_vel
+        timeout: 2.0
+        priority: 120
+      
+      master_vel:
+        topic : odom_vel
+        timeout: 3.0
+        priority: 130
+      
+    locks:
+      pause_nav:
+        topic: pause_nav
+        timeout: 0.0
+        priority: 130

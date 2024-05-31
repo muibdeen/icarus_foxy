@@ -2,7 +2,7 @@ twist_mux:
   ros__parameters:
     topics:
       autonomous:
-        topic: nav_vel
+        topic: diff_cont/cmd_vel_unstamped
         timeout: 0.0
         priority: 100
       

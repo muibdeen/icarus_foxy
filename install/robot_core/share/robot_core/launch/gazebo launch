@@ -1,1 +1,18 @@
-/icarus_foxy/src/robot_core/launch/gazebo launch
+    spawn_entity = launch_ros.actions.Node(
+        package = 'gazebo_ros',
+        executable = 'spawn_entity.py',
+        arguments = ['-entity', 'robot_core', '-topic', 'robot_description', "-verbose", "true"],
+        output = 'screen'
+    )
+    
+        return launch.LaunchDescription([
+        launch.actions.DeclareLaunchArgument(name='gui', default_value='True',
+                                            description='Flag to enable joint_state_publisher_gui'),
+        launch.actions.DeclareLaunchArgument(name='model', default_value=default_model_path,
+                                            description='Absolute path to robot urdf file'),
+        launch.actions.DeclareLaunchArgument(name='rvizconfig', default_value=default_rviz_config_path,
+                                            description='Absolute path to rviz config file'),
+        launch.actions.DeclareLaunchArgument(name='use_sim_time', default_value='True',
+                                            description='Flag to enable use_sim_time'),
+        launch.actions.ExecuteProcess(cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so', world_path], output='screen'),        joint_state_publisher_node,
+    ])

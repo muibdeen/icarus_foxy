@@ -1,0 +1,9 @@
+<library path="mechanum_wheel_controller">
+    <class name="mechanum_wheel_controller/"
+            type="mechanum_wheel_controller::MechanumWheel"
+            base_class_type="hardware_interface::SystemInterface">
+            <description>
+                mechanum wheel controller
+            </description>
+    </class>
+</library>

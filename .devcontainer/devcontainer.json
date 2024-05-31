@@ -3,12 +3,15 @@
   "dockerFile": "Dockerfile",
   "runArgs": [
     "--privileged",
-    "--network=host"
+    "--network=host",
+    "-e", "DISPLAY=${env:DISPLAY}",
+    "-v", "/tmp/.X11-unix:/tmp/.X11-unix"
   ],
   "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
   "workspaceFolder": "/${localWorkspaceFolderBasename}",
   "mounts": [
     "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind",
-    "source=/home/muib/Desktop,target=/desktop,type=bind"
+    "source=/home/muib/Desktop,target=/desktop,type=bind",
+    "type=bind,source=/dev/bus/usb,target=/dev/bus/usb"
   ]
 }

@@ -1,1 +1,13 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
+. "/icarus_foxy/install/diff_drive_controller/share/diff_drive_controller/package.sh"
+. "/icarus_foxy/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/package.sh"
+. "/icarus_foxy/install/forward_command_controller/share/forward_command_controller/package.sh"
+. "/icarus_foxy/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.sh"
+. "/icarus_foxy/install/joint_state_broadcaster/share/joint_state_broadcaster/package.sh"
+. "/icarus_foxy/install/joint_trajectory_controller/share/joint_trajectory_controller/package.sh"
+. "/icarus_foxy/install/tricycle_controller/share/tricycle_controller/package.sh"
+. "/icarus_foxy/install/effort_controllers/share/effort_controllers/package.sh"
+. "/icarus_foxy/install/joint_state_controller/share/joint_state_controller/package.sh"
+. "/icarus_foxy/install/position_controllers/share/position_controllers/package.sh"
+. "/icarus_foxy/install/velocity_controllers/share/velocity_controllers/package.sh"
+. "/icarus_foxy/install/ros2_controllers/share/ros2_controllers/package.sh"
