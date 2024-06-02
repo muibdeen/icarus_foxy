@@ -1,1 +1,0 @@
-robot_state_publisher;joint_state_publisher;joint_state_publisher_gui;rviz2;xacro;rclcpp;geometry_msgs;tf2;tf2_ros;sensor_msgs;nav_msgs;ros2_control;joy;gazebo_ros;gazebo_ros_pkgs;ros2_controllers;gazebo_ros2_control;twist_mux;ament_lint_auto;ament_lint_common

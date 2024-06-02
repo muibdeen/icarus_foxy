@@ -1,4 +1,4 @@
-build/*
-log/*
-install/*
-ros2_controllers/*
+build/
+log/
+install/
+ros2_controllers/
