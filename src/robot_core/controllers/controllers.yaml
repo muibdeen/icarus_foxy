@@ -27,16 +27,16 @@ mech_cont:
 
     joint_state:
       front_left_wheel:
-        topic: "/frontLeft_Joint" # Adjust topic names as per your actual topics
+        topic: "/frontLeft_joint" # Adjust topic names as per your actual topics
         ignore_timestamp: true
       front_right_wheel:
-        topic: "/frontRight_Joint" # Adjust topic names as per your actual topics
+        topic: "/frontRight_joint" # Adjust topic names as per your actual topics
         ignore_timestamp: true
       back_left_wheel:
-        topic: "/backLeft_Joint" # Adjust topic names as per your actual topics
+        topic: "/backLeft_joint" # Adjust topic names as per your actual topics
         ignore_timestamp: true
       back_right_wheel:
-        topic: "/backLeft_Joint" # Adjust topic names as per your actual topics
+        topic: "/backLeft_joint" # Adjust topic names as per your actual topics
         ignore_timestamp: true
 
 
