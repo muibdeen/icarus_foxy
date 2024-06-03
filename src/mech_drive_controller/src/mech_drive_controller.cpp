@@ -188,6 +188,7 @@ controller_interface::return_type MechDriveController::update()
   {
     last_msg->twist.linear.x = 0.0;
     last_msg->twist.angular.z = 0.0;
+    last_msg->twist.linear.y = 0.0;
   }
 
   // command may be limited further by SpeedLimit,
